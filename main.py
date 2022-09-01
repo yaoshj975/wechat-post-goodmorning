@@ -12,7 +12,7 @@ def run_main(runtime):
         nowtime = time.localtime()
         if nowtime[3] == runtime:
             os.popen("weixin.exe")
-            print("execute at" + time.ctime())
+            print("execute at " + time.ctime())
             time.sleep(ONE_DAY)
         else:
             time.sleep(ONE_HOUR)
